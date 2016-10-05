@@ -6,7 +6,7 @@ app.get('/', function(request, response){
 });
 
 app.get('/funny-porcupine', function(request, response){
-    response.send('well hello there!');
+    response.send('well hello there, funny-porcupine!');
 });
 
 
