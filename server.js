@@ -5,8 +5,8 @@ app.get('/', function(request, response){
     response.send('Hello MGT-656!');
 });
 
-app.get('/funny-porcupine', function(request, response){
-    response.send('well hello there, funny-porcupine!');
+app.get('/nickname', function(request, response){
+    response.send('funny-porcupine');
 });
 
 
